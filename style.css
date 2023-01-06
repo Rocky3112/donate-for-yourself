@@ -39,9 +39,8 @@
 }
 
 /* main part */
-.main-parts {
-}
-.main-part1 {
+.main-part1,
+.amount {
   width: 60%;
   display: flex;
   align-items: center;
@@ -57,18 +56,11 @@
 
 /* amount part */
 .amount {
-  display: flex;
-  width: 60%;
-
-  align-items: center;
-  /* justify-content: center; */
-  color: black;
-  text-align: center;
-  margin: 0 auto;
   justify-content: space-around;
 }
 
-.donate-amount {
+.donate-amount,
+.donate-amount2 {
   margin-top: 50px;
   height: 100px;
   width: 100px;
@@ -81,14 +73,47 @@
   font-weight: 700;
 }
 .donate-amount2 {
-  margin-top: 50px;
-  height: 100px;
-  width: 100px;
   background-color: pink;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border: 1px solid tomato;
-  font-size: 20px;
-  font-weight: 700;
+}
+.other-amount {
+  margin-top: 50px;
+  display: flex;
+  
+  justify-content: center;
+}
+.other-amount p{
+    color:lightslategray;
+    padding:5px;
+    
+
+}
+.other-amount hr{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* midddle part */
+.middle-part{
+width: 60%;
+display: flex; 
+align-items: center;
+justify-content: space-around;
+margin: 0 auto;
+margin-top: 30px;
+
+
+}
+.middle-part1{
+display: flex;
+justify-content: space-around;
+
+
+}
+.middle{
+    padding: 30px 15px;
+    margin: 20px 5px;
+    background-color:skyblue;
+    height: 250px;
+    width: 230px;
 }
